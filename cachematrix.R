@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {  ## x=matrix() is used to avoid an e
 }
 
 
-## This function calculates the inverse of the matrix
+## This function calculates the inverse of the matrix. Can take it from the cache or calculating it (if is NULL)
 
 cacheSolve <- function(x, ...) {
         m<-x$getsolve()
